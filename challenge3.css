@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background: #dadada;
+}
+#first {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom right, #1f2f35, #8fa5a2);
+}
+#first #fi {
+  border-left: 5px solid #af3b66;
+  height: fit-content;
+  padding-left: 20px;
+  margin-top: 3%;
+  margin-left: 100px;
+}
+#first #se {
+  border-left: 5px solid #ec3951;
+  height: fit-content;
+  padding-left: 20px;
+  margin-top: 3%;
+  margin-left: 320px;
+}
+#first #th {
+  border-left: 5px solid #14353f;
+  height: fit-content;
+  padding-left: 20px;
+  margin-top: 3%;
+  margin-left: 320px;
+}
+#center {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 75%;
+  background: transparent;
+  display: flex;
+  justify-content: space-evenly;
+}
+#center div {
+  width: 25%;
+  height: 100%;
+  background: white;
+}
+#center #box1 > #f {
+  width: 100%;
+  height: 40%;
+  background: #af3b66;
+}
+#center #box1 > #f img {
+  position: absolute;
+  left: -1%;
+  width: 35%;
+  top: -11%;
+  background-size: cover;
+  rotate: -15deg;
+}
+#center #box1 P {
+  padding: 18% 24%;
+  font-size: 19px;
+  opacity: 0.3;
+}
+#center #box1 h1 {
+  font-size: 30px;
+  padding-top: 84%;
+  padding-left: 13%;
+}
+#center #box1 #f h5 {
+  font-size: 19px;
+  padding: 10px 20px;
+  opacity: 0.5;
+  text-align: center;
+}
+#center #box1 button {
+  margin-top: 21%;
+  font-size: 18px;
+  padding: 20px 50px;
+  color: white;
+  background: #af3b66;
+  border-radius: 30px;
+  border: none;
+  margin-left: 13%;
+}
+#center #box1 button:hover {
+  background: #dadada;
+  color: black;
+  border: 2px solid black;
+  transition: all ease 0.3s;
+}
+#center #box2 > #s {
+  width: 100%;
+  height: 40%;
+  background: #ec3951;
+}
+#center #box2 > #s img {
+  position: absolute;
+  right: 38%;
+  /* top: -15%; */
+  top: -8%;
+  rotate: 15deg;
+  background-size: cover;
+  object-fit: cover;
+}
+#center #box2 P {
+  padding: 18% 41%;
+  font-size: 19px;
+  opacity: 0.3;
+}
+#center #box2 #s h1 {
+  padding-top: 84%;
+  padding-left: 10%;
+  font-size: 30px;
+}
+#center #box2 #s h5 {
+  font-size: 19px;
+  padding: 10px 20px;
+  opacity: 0.5;
+  text-align: center;
+}
+#center #box2 button {
+  margin-top: 21%;
+  font-size: 18px;
+  padding: 20px 50px;
+  color: white;
+  background: #ec3951;
+  border-radius: 30px;
+  border: none;
+  margin-left: 13%;
+}
+#center #box2 button:hover {
+  background: #dadada;
+  color: black;
+  border: 2px solid black;
+  transition: all ease 0.3s;
+}
+#center #box3 > #t {
+  width: 100%;
+  height: 40%;
+  background: #14353f;
+}
+#center #box3 > #t img {
+  width: 18%;
+  position: absolute;
+  right: 11%;
+  top: 5%;
+  background-size: cover;
+}
+
+#center #box3 #t #im {
+  width: 6%;
+  right: 22%;
+  height: auto;
+}
+#center #box3 P {
+  padding: 18% 39%;
+  font-size: 19px;
+  opacity: 0.3;
+}
+#center #box3 h1 {
+  font-size: 30px;
+  padding-top: 84%;
+  padding-left: 14%;
+}
+#center #box3 #t h5 {
+  font-size: 19px;
+  padding: 10px 20px;
+  opacity: 0.5;
+  text-align: center;
+}
+#center #box3 button {
+  margin-top: 21%;
+  font-size: 18px;
+  padding: 20px 50px;
+  color: white;
+  background: #14353f;
+  border-radius: 30px;
+  border: none;
+  margin-left: 13%;
+}
+#center #box3 button:hover {
+  background: #dadada;
+  color: black;
+  border: 2px solid black;
+  transition: all ease 0.3s;
+}
